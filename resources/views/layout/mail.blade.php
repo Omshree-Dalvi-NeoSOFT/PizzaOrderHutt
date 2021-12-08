@@ -53,5 +53,5 @@
     </table>
 
     <hr>
-    <h5>Thanks & Regards</h5>
-    <h6>PizzaHut.com</h6>
+    <h2>Thanks & Regards</h2>
+    <h3>PizzaHut.com</h3>
