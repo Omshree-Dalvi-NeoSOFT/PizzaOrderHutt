@@ -1,4 +1,4 @@
-<table class="table">
+<table class="table ml-5">
     <thead class="thead-dark">
         <tr>
             <th scope="col">#</th>
@@ -51,3 +51,7 @@
         </tr>
     </tbody>
     </table>
+
+    <hr>
+    <h5>Thanks & Regards</h5>
+    <h6>PizzaHut.com</h6>
