@@ -105,7 +105,7 @@ class Operation extends Controller
             $orderid=$order->id;
             $product=OrderProducts::where('oid',$orderid)->get();
             $data=['order'=>$order,'orderproducts'=>$product];
-            $user['to']="omshreedalvi31@gmail.com";
+            $user['to']=$useremail;
             Mail::send('layout/mail',$data,function($message) use ($user){
                 $message->to($user['to']);
                 $message->subject("Order Confirmation Mail | PizzaHut");
